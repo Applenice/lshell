@@ -101,7 +101,7 @@ class ShellCmd(cmd.Cmd, object):
                                                           self.conf)
             self.log = self.conf['logpath']
 
-        if self.g_cmd in ['quit', 'exit', 'EOF']:
+        if self.g_cmd in ['exit']:
             self.log.error('Exited')
             if self.g_cmd == 'EOF':
                 self.stdout.write('\n')

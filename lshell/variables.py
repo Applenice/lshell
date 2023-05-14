@@ -90,13 +90,8 @@ configparams = ['config=',
                 'disable_exit=',
                 'include_dir=']
 
-builtins_list = ['cd',
-                 'clear',
-                 'exit',
-                 'export',
-                 'history',
-                 'lpath',
-                 'lsudo']
+builtins_list = ['exit',
+                 'history']
 
 FORBIDDEN_ENVIRON = (
     'LD_AOUT_LIBRARY_PATH', 'LD_AOUT_PRELOAD', 'LD_LIBRARY_PATH', 'LD_PRELOAD',
